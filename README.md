@@ -50,5 +50,5 @@ streamlit run streamlit_app.py
 ```json
 {"sim": 0, "não": 0, "abster": 0, "votes": []}
 ```
-- Implementação atual: cada usuário (identificado por `st.session_state.user_id`) só pode votar uma vez por tarefa. Se preferir, posso alterar para permitir troca de voto.
+- Implementação atual: cada usuário (identificado por `st.session_state.user_id`) só pode votar uma vez por tarefa.
 
