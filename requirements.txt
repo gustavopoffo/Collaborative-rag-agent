@@ -1,8 +1,25 @@
-streamlit
-langchain-core
-langchain-openai
-langchain-community
-langgraph
-chromadb
-pypdf
-python-dotenv
+#Dependências Python para o projeto
+
+streamlit>=1.24
+langchain>=0.0.300
+langchain-community>=0.0.27
+
+# embeddings
+chromadb>=0.3.26
+sentence-transformers>=2.2.2
+transformers>=4.30.0
+huggingface-hub>=0.17.0
+
+# Manipulaçao de PDFs
+pypdf>=3.15.0
+
+# Adaptadores para LLM (envoltório do Ollama) – a instalação do Ollama pode ser necessária separadamente.
+ollama>=0.1.0
+
+python-dotenv>=1.0.0
+
+# Opcional: backend numérico para sentence-transformers (torch)
+torch>=1.13; python_version >= '3.8'
+
+#Observação:
+# O Ollama requer que o runtime Ollama seja instalado separadamente para usar o LLM local.
